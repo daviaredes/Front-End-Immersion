@@ -6,6 +6,7 @@
     <title>Spotify</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="icon" href="./assets/icons/favicon.png" >
     <link
         rel="stylesheet"
         href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
@@ -25,43 +26,48 @@
                 <img src="./assets/icons/logo-spotify.png" alt="Logo" />
             </a>
         </div>
-        <div>
-            <ul>
-                <li>
-                    <a href="">
-                        <span class="fa fa-home"></span>
-                        <span>Início</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <span class="fa fa-search"></span>
-                        <span>Buscar</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
+        <ul>
+            <li>
+                <a href="">
+                    <span class="fa fa-home"></span>
+                    <span>Início</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="fa fa-search"></span>
+                    <span>Buscar</span>
+                </a>
+            </li>
+        </ul>
     </nav>
-<nav>
     <div class="library">
-        <div>
-            <ul>
-                <li class="logo-library">
-                    <a href="">
-                        <span class="fa-solid fa-book"></span>
-                        <span>Sua Bliblioteca</span>
-                    </a>
-                </li> 
-                
-                <li>
-                    <a href="">
-                        <span class="fa-duotone fa-xmark"></span>
-                    </a>
-                </li>
-            </ul>
+        <div class="library__content">
+            <button class="library__button">
+                <span class="fa fas fa-book"></span>
+                <span>Sua Bibliote</span>
+            </button>
+            <span class="fa fa-plus"></span>
+        </div>
+        <section class="selection_playlist">
+            <div class="section-playlist__content">
+                <span class="text title">Crie sua Playlist</span>
+                <span class="text subtitle">É facil, vamos te ajudar</span>
+                <button class="selection-playlist__button">
+                    <span>Criar Playlist</span>
+                </button>
+            </div>
+        </section>
+        <div class="cookies">
+            <a href="">Cookies</a>
+        </div>
+        <div class="languages">
+            <button class="languages__button">
+                <span class="fa fa-globe"></span>
+                <span>português</span>
+            </button>
         </div>
     </div>
-</nav>
 </div>
 
 </body>
