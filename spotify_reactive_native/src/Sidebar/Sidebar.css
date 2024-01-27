@@ -100,7 +100,6 @@ body{
 .selection_playlist .section-playlist__content{
     display: flex;
     flex-direction: column;
-
 }
 
 .section-playlist__content .text{
